@@ -1,0 +1,228 @@
+/* Styling for HTML Elements */
+html {
+    background-color: white;
+}
+body {
+    font-family: Formula1 Display Regular;
+    
+    margin: 0px auto;
+    background-color: white;
+}
+header {
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ff0000;
+}
+header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+}
+main {
+    margin: 0;
+	float: center;
+	width: 100%;
+	text-align: center;
+}
+aside {
+    float: left;
+    width: 150px;
+}
+nav {
+	text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    text-align: center;
+}
+section {
+    float: left;
+    width: 100%;
+    padding-bottom: 1.5em;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+h1 {
+	text-align: center;
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+	font-family: Formula1 Display Wide;
+	color: black;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+pre {
+	font-family: Formula1 Display Regular;
+	text-align: center;
+}
+a {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(208, 133, 4);
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+	width: 80%;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+
+
+
+/* Styling for Navigation Buttons */
+.tabs{
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  
+  text-align: center;
+  text-decoration: none;
+  font-family: Formula1 Display Regular;
+  font-size:25px;
+  
+  display: inline-block;
+  transition: all 0.3s;
+}
+.tabs:hover{
+  background-color: #4f4f4f;
+  transition: all 0.3s;
+  transform: translateY(4px);
+  cursor: pointer;
+}
+
+
+
+/* Styling for "Next Page" & "Last Page" Buttons */
+.pg{
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  
+  text-align: center;
+  text-decoration: none;
+  font-family: Formula1 Display Regular;
+  font-size:25px;
+  
+  display: inline-block;
+  transition: all 0.3s;
+}
+.pg:hover{
+  background-color: #4f4f4f;
+  transition: all 0.3s;
+  transform: translateY(4px);
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* Custom Font Imports*/
+/* F1Regular */
+@font-face{
+	font-family: Formula1 Display Regular;
+	src: url('FONT(s)/F1Regular/Formula1-Regular.ttf');
+}
+/* F1Torque */
+@font-face{
+	font-family: Formula1 Display Bold;
+	src: url('FONT(s)/F1Torque/Formula1-Bold.ttf');
+}
+/* F1Turbo */
+@font-face{
+	font-family: Formula1 Display Wide;
+	src: url('FONT(s)/F1Turbo/Formula1-Wide.ttf');
+}
+/* FONTS REFERENCE (Last Accessed 01/05/2023): https://imjustcreative.com/download-f1-fonts-formula-1-fonts/2021/09/16 */
+
+
+
+
+
+/* Scroll Bar: Default, Hover  */				
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background: #ff0000; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #000000;
+	width: 8px;
+}
+
+
+
+/* the styles for classes */
+.right {
+    text-align: right;
+}
+.last_paragraph {
+	margin-bottom: 2em;	
+}
+.margin_top_increase {
+	margin-top: 1em;	
+}
+
+/********************************************************************
+* Additional styles for the Product Manager application
+********************************************************************/
+#add_product_form {
+    margin: .5em 0 1em;
+}
+#add_product_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_product_form input {
+    float: left;
+}
+#add_product_form input[text] {
+    width: 15em;
+}
+
+
